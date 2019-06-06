@@ -3,32 +3,32 @@
     <h1 style="justify-content-md-center">Post a new location:</h1>
         <div class="row col-md-7 col-xs-12">
             <div class="loginForm col-xs-12 col-md-7">
-                <form action="/campgrounds" method="POST">
+                <form action="/locations" method="POST">
                     <div class="form-group">
-                        <label for="campground[name]">Title: </label>
+                        <label for="location[name]">Title: </label>
                         <input class="form-control" type="text" name="name" >
                     </div>
                     <div class="form-group">
-                        <label for="campground[price]">Price: </label>                        
+                        <label for="location[price]">Price: </label>                        
                         <input class="form-control" type="number" name="price" min="0.01" step="0.01">
                     </div>
                     <div class="form-group">
-                         <label for="campground[name]">Image Url: </label>                       
+                         <label for="location[name]">Image Url: </label>                       
                         <input class="form-control" type="text" name="image">
                     </div>
                     <div class="form-group">
-                         <label for="campground[name]">Description: </label>                       
+                         <label for="location[name]">Description: </label>                       
                         <input class="form-control" type="text" name="description">
                     </div>
                     <div class="form-group">
-                        <label for="campground[name]">Address: </label>                        
+                        <label for="location[name]">Address: </label>                        
                         <input class="form-control" type="text" name="location" id="location">
                     </div>
                     <div class="form-group">
                         <button class="btn btn-lg btn-primary btn-block">Post new location</button>
                     </div>
                 </form>
-                <a href="/campgrounds">Go Back</a>
+                <a href="/locations">Go Back</a>
             </div>
         </div>
 </div>

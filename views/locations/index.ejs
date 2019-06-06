@@ -25,7 +25,7 @@
          <div class="container">
         <nav class="navbar navbar-default">
             <div class="container-fluid">
-                    <a class="navbar-brand" href="/campgrounds">ANNEX</a>
+                    <a class="navbar-brand" href="/locations">ANNEX</a>
                     <ul class="nav navbar-nav navbar-right">
                         <% if(!currentUser){ %>
                             <li><a href="/login" id="login-btn">Login</a></li>
@@ -42,20 +42,20 @@
             <h1>Welcome to Annex</h1>
             <p>View hand-picked locations from users all over the world</p>
             <p>
-              <a class="btn btn-primary btn-lg" href="/campgrounds/new">Share new location</a>
+              <a class="btn btn-primary btn-lg" href="/locations/new">Share new location</a>
             </p>
         </div>
     </header>
     
 <div class="container">
     <div class="row">
-         <% campgrounds.forEach(function(campground){ %>
+         <% locations.forEach(function(location){ %>
             <div class="col-md-4 col-sm-6">
                 <div class="card p-1 text-center img-thumbnail">
-                 <img class="img-fluid" src="<%= campground.image  %>">
-                  <h3 class="card-title mt-0"><%= campground.name %></h3>
+                 <img class="img-fluid" src="<%= location.image  %>">
+                  <h3 class="card-title mt-0"><%= location.name %></h3>
                 <p>
-                    <a href="/campgrounds/<%= campground._id %>" class="btn btn-primary">More Info</a>
+                    <a href="/locations/<%= location._id %>" class="btn btn-primary">More Info</a>
                 </p>
                 </div>
 
