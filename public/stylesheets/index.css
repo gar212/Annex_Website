@@ -1,0 +1,159 @@
+body {
+    margin-bottom: 30px;
+    background-color: #fcfcfc;
+}
+
+ul li {
+        font-weight: 300;
+}
+
+#login-btn {
+    margin-top: 12px;
+}
+
+.container.text-center {
+    margin-top: 10vh;
+    text-shadow: 3px 3px 5px #000;
+}
+
+.jumbotron{
+    background-image: url(https://pbs.twimg.com/media/D3pDfRYWkAIg1QY.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    padding-bottom: 20vh;
+    color: white;
+}
+
+.img-thumbnail img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.img-thumbnail{
+    padding:0;
+    border:none;
+    margin-bottom: 5vh;
+    -webkit-box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.3);
+}
+
+img {
+    padding-bottom: 1em;
+}
+
+.caption-full {
+    padding: 0 1.5em;
+}
+
+ul li {
+    padding: 0 1em;
+}
+
+#delete-form{
+    display: inline;
+}
+
+
+.card-title {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.navbar {
+    background: none;
+    border: none;
+    color: white!important;
+    font-weight: bold;
+    margin-top: 1vh;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+    color: #ddd;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
+                 0px 8px 13px rgba(0,0,0,0.05),
+                 0px 18px 23px rgba(0,0,0,0.05);
+    margin-top: 10px;
+    padding:10px 25px;
+}
+
+.navbar-default:hover .navbar-nav>li>a:hover, .navbar-default:hover .navbar-brand:hover {
+    color: white;
+    transition:color 0.05s ease-in;
+}
+
+.signUp {
+    border: 1px solid #ddd;
+    border-radius: 1vh;
+    
+}
+
+.signUp:hover {
+    border: 1px solid white;
+    border-radius: 1vh;
+    transition:color 2s ease-in;
+}
+
+.alert-success {
+    background-color: #5cb85c;
+}
+
+.alert {
+    margin-bottom: 0;
+    border-radius: 0;
+    font-weight: bold;
+    padding-left: 15vh;
+    border:none;
+    color: white;
+    font-size: 1.6rem;
+    min-height: 50px;
+    
+    transition-property: height, min-height;
+    animation-fill-mode: backwards;
+    transition-duration: 0.5s;
+    transition-delay: 0.25s;
+}
+
+@media only screen and (max-width: 768px) {
+    .form-control {
+        width: 100%;
+    }
+    
+    .navbar-nav {
+        margin: 0 -50px;
+    }
+    
+    ul li {
+        padding: 0;
+        font-weight: 300;
+    }
+    
+    .container-fluid {
+        padding: 0;
+    }
+    
+    .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+        padding: 10px 15px;
+        margin-right: 15px;
+    }
+
+    .signUp {
+        margin-right: 15px!important;
+    }
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0 !important;
+}
+
+.navbar-right {
+  float: right!important;
+}

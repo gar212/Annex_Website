@@ -1,0 +1,184 @@
+body {
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.6rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
+img {
+    padding-bottom: 1em;
+}
+
+ul li {
+    padding: 0 1em;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: 900;
+    margin: 0 0 20px 0;
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
+
+.loginForm {
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    overflow: auto;
+    float: left;
+    width: 100%;
+}
+
+.navbar {
+    background:none;
+    border: none;
+    color: white!important;
+    font-weight: bold;
+    margin-top: 1vh;
+    margin: 0;
+
+}
+
+.formContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.navContainer {
+    width: 100%;
+    background: #333;
+    margin-bottom: 3vh;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+    color: #ddd;
+    margin-top: 10px;
+    padding:10px 25px;
+}
+
+.navbar-default:hover .navbar-nav>li>a:hover, .navbar-default:hover .navbar-brand:hover {
+    color: white;
+    transition:color 0.05s ease-in;
+}
+
+.caption-full {
+    padding: 0 1.5em;
+}
+
+#delete-form{
+    display: inline;
+}
+
+.form-control {
+    width: 70%; 
+    margin-bottom: 17px;
+    float: right;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.thumbnail a>img, .thumbnail>img {
+    margin:0;
+    width: 100%;
+}
+
+.well {
+    margin: 0 30px;
+}
+
+.showSection {
+    padding: 0 0 15px 0;
+}
+
+.showSection p {
+    line-height: 1.5;
+}
+
+.alert-success {
+    background-color: #5cb85c;
+}
+
+.alert-danger {
+    background-color: #d9534f;
+}
+
+.alert {
+    margin-bottom: 0;
+    border-radius: 0;
+    font-weight: bold;
+    padding-left: 15vh;
+    border:none;
+    color: white;
+    font-size: 1.6rem;
+    min-height: 50px;
+    
+    transition-property: height, min-height;
+    animation-fill-mode: backwards;
+    transition-duration: 0.5s;
+    transition-delay: 0.25s;
+}
+
+@media only screen and (max-width: 768px) {
+    .form-control {
+        width: 100%;
+    }
+    
+    .navbar-nav {
+        margin: 0 -50px;
+    }
+    
+    ul li {
+        padding: 0;
+        font-weight: 300;
+    }
+    
+    .container-fluid {
+        padding: 0;
+    }
+    
+    .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+        padding: 10px 15px;
+    }
+    
+    .signUp {
+        margin-right: 15px!important;
+    }
+}
