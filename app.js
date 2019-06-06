@@ -19,9 +19,7 @@ var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index")
 
-// mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true });
-mongoose.connect("mongodb+srv://Gar:gar@cluster0-eaolb.mongodb.net/test?retryWrites=true&w=majority", {userNewUrlParser: true, useCreateIndex: true})
-
+mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true, useCreateIndex: true });
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
